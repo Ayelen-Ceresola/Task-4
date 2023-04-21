@@ -1,0 +1,244 @@
+* :not(ol, li, ul) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+nav {
+    background-color: aquamarine;
+    border: solid rgb(88, 200, 116);
+    height:10vh ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+   
+}
+header {
+    height: 10vw;
+    background-color: rgb(202, 248, 234) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+main {
+    background-color: rgb(202, 248, 234);
+    min-height:50vw;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: aquamarine;
+    min-height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    padding: 20px;
+    font-size: 1.5rem;
+    
+    
+}
+
+.logo {
+    height: 4rem;
+    display: inline;
+    position: absolute; right: 40px;
+}
+
+h1 {
+    color: rgb(56, 55, 55);
+    font-size: 3rem;
+    margin-top: 2rem;
+   
+}
+
+h2 {
+    color: grey;
+    font-size: 1.5rem;
+    
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#imagen1 {
+    width: 60%;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+#imagen2 {
+    width: 30%;
+}
+
+h3 { 
+    width: 35%;
+   
+}
+
+.containerabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    
+}
+.tres, .cinco {
+    width: 30rem;
+    height: 20rem;
+   
+}
+.cinco {
+    width: 30rem;
+    height: 20rem;
+}
+.cuatro {
+    width: 30rem;
+    height: 20rem;
+}
+.sectionbox2, .sectionbox3, .sectionbox4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 10rem; */
+    
+    /* justify-items: center;
+    margin: 4rem; */
+
+}
+.text2 {
+    width: 30rem;
+} 
+   
+
+.text4 {
+    width: 30rem;
+}
+
+table, tr, th, td {
+    border: 1px solid rgb(58, 58, 58);
+    border-collapse: collapse;
+    text-align: center;
+    width: 25rem;
+    height: 5rem;
+   align-self: center;
+   margin-top: 5rem;
+}
+thead {
+    background-color: rgb(14, 205, 141);
+}
+#contenidotips {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 3rem;
+} 
+#contenidotips2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.imgylist {
+    width: 20rem;
+    height: 20rem;
+    
+}
+.imgtip1 {
+    width: 30rem;
+    height: 20rem;
+    
+}
+
+.imgtip2 {
+    width: 30rem;
+    height: 20rem;
+    
+}
+
+#imgcontact {
+    width: 50rem;
+}
+.maincontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerraffle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerimg-raffle1 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    gap: 5rem;
+}
+
+.containerform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(9, 97, 53);
+    height: 50rem;
+    width: 25rem;
+    padding: .5rem;
+}
+.imageraffle {
+    width: 35rem;
+    height: 25rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 20rem;
+    color: white;
+
+}
+input, label {
+    padding: .5rem;
+    width: 22rem;
+
+}
+select {
+    padding: .3rem;
+    width: 22rem;
+
+}
+
+legend {
+    padding: .5rem;
+}
+
+.labelradio {
+    width: 10rem;
+    height: 2rem;
+}
+
+textarea{
+    resize:none;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+}
